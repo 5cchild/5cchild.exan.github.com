@@ -13,16 +13,10 @@
                 <li>
                     <a href="#">喬治·喬斯達一世</a>  <!-- 方便而已 連結到無意義的網站 -->
                     <ul>
-                        <li>
-                            <a href="#"></a>
-                            <ul>
-                                <li><a href="#">艾莉娜·喬斯達(艾莉娜婆婆)</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="#">艾莉娜·喬斯達(艾莉娜婆婆)</a></li>
                         <li>
                             <a href="#">喬納森·喬斯達</a>
                             <ul>
-                                <li><a href="#">Grand Child</a></li>
                                 <li>
                                 <a href="#">喬治·喬斯達二世</a>
                                     <ul>
@@ -39,7 +33,6 @@
                                         </ul>
                                     </ul>
                                 </li>
-                                <li><a href="#">Grand Child</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -63,7 +56,6 @@
 </html>
 
 <style type="text/css">
-    /*Now the CSS*/
     * {margin: 0; padding: 0;}
 
     .tree ul {
@@ -84,8 +76,6 @@
     	-webkit-transition: all 0.5s;
     	-moz-transition: all 0.5s;
     }
-
-    /*We will use ::before and ::after to draw the connectors*/
 
     .tree li::before, .tree li::after{
     	content: '';
